@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+	
+	<body style='margin : 0px; overflow: hidden;'>
+
+		<a-scene
+		arjs="sourceType: webcam; debugUIEnabled: false;"
+		embedded
+		renderer="logarithmicDepthBuffer: true;"
+		vr-mode-ui="enabled: false"
+		id="scene">
+			<a-assets>
+				<a-asset-item id="chained" src="https://raw.githack.com/robots-make-art-too/Group25_TheYorkExperience-/gh-pages/docs/assets/Objects/chained.gltf"></a-asset-item>
+			</a-assets>
+			
+			<a-marker id="hiro-1" preset="hiro">
+				<a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+            </a-marker>
+
+			<a-marker id="custom-1" type="pattern" url="https://raw.githack.com/robots-make-art-too/Group25_TheYorkExperience-/gh-pages/docs/assets/Markers/pattern-hiro.patt">
+				<a-entity id="chained-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#chained"></a-entity>
+			</a-marker>
+
+			<a-entity camera></a-entity>
+
+		</a-scene>
+
+
+	</body>
+</htlm>
