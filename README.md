@@ -1,9 +1,12 @@
 Phase 2 Content: 
 
-TheYorkExperience Website
+TheYorkExperience Website: *view deployment under environments >>> github pages
 
 
 LINK TO [AR CONTENT](docs/website/pages/custom-glTF3.html)
+
+LiveCodeRunning.MOV is a video showing the ar live scene running on our website
+
 
 
 PART 4: DOCUMENTATION
