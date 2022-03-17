@@ -14,4 +14,5 @@ March 12, 2022 - Group Meeting
 - Planned to meet with the prof over zoom to ask a few questions
 - Ideas are centered around York Subway Station
 - Also a theme of a futuristic dystopian setting was agreed on and chosen 
+
 *Images will be taken later this month*
