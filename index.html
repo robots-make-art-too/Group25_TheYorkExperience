@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+		<script src="https://raw.githack.com/n5ro/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+	</head>
+
+	<body style="margin: 0; overflow: hidden;">
+		<a-scene 
+		vr-mode-ui="enabled: false"
+        	arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
+        	renderer="antialias: true; alpha: true">
+
+			<a-asset>
+				<a-asset-item id="gumball" 
+                src="./assets/Gumball.gltf">
+			</a-asset>
+
+			<a-entity gltf-model="#gumball"
+				rotation="0 180 0" scale="1 1 1" position="0 0 0"
+				gps-entity-place="longitude: -79.516; latitude: 43.8518856;"/>
+
+
+
+			<a-camera gps-camera rotation-reader></a-camera>
+		</a-scene>
+	</body>
+</html>
