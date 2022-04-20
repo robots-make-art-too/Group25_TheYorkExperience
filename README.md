@@ -1,4 +1,4 @@
-PHASE 3: 
+PHASE 2 Content (Currently Working On Phase 3): 
 
 TheYorkExperience Website: *view deployment under environments >>> github pages
 
