@@ -5,6 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 		<script src="https://rawcdn.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		
+		<script src="postprocessing.min.js"></script>
+		
 	</head>
 	
 	<body style='margin : 0px; overflow: hidden;'>
@@ -16,6 +19,21 @@
 		vr-mode-ui="enabled: false"
 		id="scene">
 
+			<!-- THREE JS content -->
+			let composer = new POSTPROCESSING.EffectComposer(renderer);
+			composer.addPass(new POSTPROCESSING.RenderPass(scene, camera));
+			const effectPass = new POSTPROCESSING.EffectPass(
+  				camera,
+  				new POSTPROCESSING.BloomEffect()
+				);
+			effectPass.renderToScreen = true;
+			composer.addPass(effectPass);
+			function animate() {
+  				composer.render();
+  				requestAnimationFrame(animate);
+			}	
+			<!-- THREE JS content -->
+			
 			<a-assets>
 				<a-asset-item id="chained" src="../assets/Objects/hovercar.glb"></a-asset-item>
 			</a-assets>
