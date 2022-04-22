@@ -11,7 +11,7 @@
 	<body style='margin : 0px; overflow: hidden;'>
 
 <!-- fog="type: exponential; color: #F19; density: 0.1;"-->
-		<a-scene background="color: red"
+		<a-scene background="color: red; opacity: 0.5"
 		arjs="sourceType: webcam; debugUIEnabled: false;"
 		embedded
 		renderer="logarithmicDepthBuffer: true;"
@@ -36,10 +36,12 @@
 				<a-entity id="synced-gltf" position="0.5 0.5 0" scale="0.5 0.5 0.5" gltf-model="#synced"></a-entity>
 			</a-marker>
 		
-		<!-- geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1"
+		<!-- fog="type: exponential; color: #F19; density: 0.05;"
+						geometry="primitive: plane; height: 0.2; width: 0.2" position="0 0 -1"
             material="color: gray; opacity: 0.5"> -->
 			<a-entity camera>
-				<a-entity fog="type: exponential; color: #F19; density: 0.05;">
+				<a-entity geometry="primitive: plane;" position="0 0 -1"
+            			material="color: gray; opacity: 0.5">
 			</a-entity>
     <a-entity>
 
