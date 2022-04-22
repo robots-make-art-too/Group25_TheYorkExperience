@@ -1,21 +1,9 @@
-PHASE 2 Content (Currently Working On Phase 3): 
+*THIS IS BRANCH CONTAINS ALL OF OUR PHASE 3 CONTENT*
 
-TheYorkExperience Website: *view deployment under environments >>> github pages
+THIS INCLUDES: 
+- Our code for our AR live scene in the docs folder
+- Phase 3 Group PDF Submission
+- Our Github Pages website as seen in index.md in the docs folder OR via environments-view deployment. 
+- The Github Pages site and the PDF includes all of our information, instructions and perspectives on our AR Content and scene 
 
-AR Live Scene is on the website as well:
-LINK TO [AR CONTENT](docs/website/pages/custom-glTF3.html)
-
-LiveCodeRunning.MOV is a video showing the ar live scene running sucessfully on our website
-
-PART 4: DOCUMENTATION
-March 12, 2022 - Group Meeting
-- Discussed roles
-- Laid out a plan for the coming days
-- Brainstormed ideas for the final image
-- Looked over project info 
-- Started on code and design
-- Planned to meet with the prof over zoom to ask a few questions
-- Ideas are centered around York Subway Station
-- Also a theme of a futuristic dystopian setting was agreed on and chosen 
-
-*Images will be taken later this month*
+- ENJOY THE FUTURISTIC YORK EXPERIENCE!!!
