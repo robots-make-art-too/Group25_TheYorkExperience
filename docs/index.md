@@ -21,8 +21,13 @@ As seen in the video below, the content is displayed at two of York University's
 
 Although our content can be displayed practically anywhere if you have the markers for each model, we want you to experience the models in the same way we did in order to obtain the full experience. Therefore like the video below shows, walk to each of these locations and place the markers in front of them. Due to the actual daylight, you may need to position the marker in a certain way in order to get the model to show up and avoid any glare. At vari hall, use the robot marker to display the robot model. At the subway station, use the spaceship and hovercar markers to display each of these given models. Use different angles and vantage points around each location in order to view each model from a different perspective. Now that you have glanced through everything, click the link below the video to run and display our content!
 
+Video Documenting Our Content: 
+
+https://youtu.be/C5jUqhx9nQw 
+
+
+
 LINK TO [AR CONTENT](website/pages/custom-glTF3.html)
 
-[AR CONTENT](website/pages/test.html)
 
 
