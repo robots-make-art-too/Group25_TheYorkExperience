@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>test filter</title>
+  <script src="js/aframe.min.js"></script>
+  <script src="js/aframe-look-at-component.min.js"></script>
+  <script src="js/aframe-ar-nft.js"></script>
+
+  <style>
+  #arjs-video {
+    filter: blur(8px) sepia(75%);
+    -webkit-filter:blur(8px) sepia(75%);
+    /* transform: scale(1.8); *//* Might stretch CPU! */
+    /* -webkit-transform: translate3d(0, 0, 0); */
+    /* overflow: hidden; */
+    /*
+    margin: -5px -10px -10px -5px;*//* consider: stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur */
+  }
+  </style>
+</head>
+
+<body style="margin: 0; overflow: hidden;" >
+
+  <a-scene
+    embedded
+    vr-mode-ui="enabled: false"
+    arjs="
+      trackingMethod: best;
+      debugUIEnabled: false;
+      sourceType: webcam; sourceWidth:40; sourceHeight:30;"		
+    id="scene">
+
+			<a-assets>
+				<a-asset-item id="chained" src="../assets/Objects/hovercar.glb"></a-asset-item>
+				<a-asset-item id="linked" src="../assets/Objects/spaceship.glb"></a-asset-item>
+				<a-asset-item id="synced" src="../assets/Objects/Robot.glb"></a-asset-item>
+				
+			</a-assets>
+
+			<a-marker id="custom-1" type= "pattern" url="../assets/Markers/pattern-flying-car.patt">
+				<a-entity id="chained-gltf" position="0.5 0.5 0" scale="0.5 0.5 0.5" gltf-model="#chained"></a-entity>
+			</a-marker>
+			
+			<a-marker id="custom-2" type= "pattern" url="../assets/Markers/pattern-spaceship.patt">
+				<a-entity id="linked-gltf" position="0.5 0.5 0" scale="0.5 0.5 0.5" gltf-model="#linked"></a-entity>
+			</a-marker>
+			
+			<a-marker id="custom-3" type= "pattern" url="../assets/Markers/pattern-robot.patt">
+				<a-entity id="synced-gltf" position="0.5 0.5 0" scale="0.5 0.5 0.5" gltf-model="#synced"></a-entity>
+			</a-marker>
+
+    <a-camera camera="fov: 35; far: 10000"> 
+    </a-camera>
+  </a-scene>
+
+</body>
