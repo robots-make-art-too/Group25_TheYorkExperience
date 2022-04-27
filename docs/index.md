@@ -28,7 +28,7 @@ Video Documenting Our Content:
 NOTE: The video displays our content at york running and where you should go to display the content. The glare from the sun did cause some issues when trying to scan the markers, however it worked out in the end. The only thing the video does not show is the change in lighting and effects we added to our AR live scene. The reason why this was done is because we wanted YOU, the user to experience this quality on your own using the link below. 
 
 
-LINK TO [AR CONTENT](website/pages/custom-glTF3.html)
+LINK TO [AR CONTENT](website/pages/filter.html)
 
 
 
