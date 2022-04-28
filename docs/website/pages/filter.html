@@ -49,16 +49,14 @@
 			<a-marker id="custom-3" type= "pattern" url="../assets/Markers/pattern-robot.patt">
 				<a-entity id="synced-gltf" position="0.5 0.5 0" scale="0.5 0.5 0.5" gltf-model="#synced"></a-entity>
 			</a-marker>
-	  
+	 
+	 
 	  		<a-entity 
-				  light="type: directional; color: #ff355e; intensity: 1.5" position="-1 1 0"
-
-			></a-entity>
-	  
-	  		<a-entity 	   
-	  			light="type: directional; color: #1703fc; intensity: 1.5" position="1 -1 0"
+				  light="type: hemisphere; color: #ff355e; groundColor: #1703fc; intensity: 1.5"
+				  
 			></a-entity>
 
+	 
 
     <a-camera camera="fov: 35; far: 10000"> 
     </a-camera>
