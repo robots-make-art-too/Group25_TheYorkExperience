@@ -25,7 +25,7 @@ Video Documenting Our Content:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C5jUqhx9nQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*NOTE: The video displays our content at york running and where you should go to display the content. The glare from the sun did cause some issues when trying to scan the markers, however it worked out in the end. The only thing the video does not show is the change in lighting and effects we added to our AR live scene. The reason why this was done is because we wanted YOU, the user to experience this quality on your own using the link below. 
+*NOTE: The video displays our content at york running and where you should go to display the content. The glare from the sun did cause some issues when trying to scan the markers, however it worked out in the end. The only thing the video does not show is the change in lighting and effects we added to our AR live scene. The reason why this was done is because we wanted YOU, the user to experience this quality on your own using the link below. However if you truly do want to see what the final product should look like with the lighting involved, see the folder "AR scene with lighting" on our group repo ---> gh pages branch.  
 
 
 LINK TO [AR CONTENT](website/pages/filter.html)
